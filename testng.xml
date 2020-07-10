@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+  <test thread-count="5" name="AutomationTest">
+    <classes>
+      <class name="com.project.MavenSeleniumBuild_6_30AMBatch.TC_002"/>
+      <class name="com.project.MavenSeleniumBuild_6_30AMBatch.NewTest"/>
+      <class name="com.project.MavenSeleniumBuild_6_30AMBatch.TC_001"/>
+      <class name="com.project.MavenSeleniumBuild_6_30AMBatch.DemoClass"/>
+    </classes>
+  </test> <!-- AutomationTest -->
+</suite> <!-- AutomationSuite -->
